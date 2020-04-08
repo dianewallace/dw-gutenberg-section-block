@@ -1,0 +1,27 @@
+{
+ "name": "dw-section-block",
+ "version": "1.0.0",
+ "description": "Block to contain other blocks.",
+ "main": "index.js",
+ "scripts": {
+  "start": "webpack --mode development --watch",
+  "build": "webpack --mode production"
+ },
+ "repository": {
+  "type": "git",
+  "url": "git+https://github.com/dianewallace/dw-gutenberg-section-block.git"
+ },
+ "keywords": [],
+ "author": "Diane wallace, BrightTALK",
+ "license": "GPL-2.0-or-later",
+ "homepage": "https://github.com/dianewallace/dw-gutenberg-section-block#readme",
+ "devDependencies": {
+  "@babel/core": "^7.9.0",
+  "@babel/plugin-transform-react-jsx": "^7.9.4",
+  "@babel/preset-env": "^7.9.5",
+  "@babel/preset-react": "^7.9.4",
+  "babel-loader": "^8.1.0",
+  "webpack": "^4.42.1",
+  "webpack-cli": "^3.3.11"
+ }
+}
